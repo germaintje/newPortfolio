@@ -1,0 +1,63 @@
+$goed :#2ECC71;
+$redelijk : #E67E22;
+$onervaren : #b1b1b1;
+
+  @keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  
+  .bar{
+    background-color: #EEE;
+    padding: 2px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  .bar::before{
+    content:  attr(data-skill);
+    background-color: $onervaren;
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+  }  
+  
+  .bar.learning::before{
+    width: calc(20% - 10px);
+    background-color: $onervaren;
+  }
+  .bar.basic::before{
+    width: calc(40% - 10px);
+    background-color: $redelijk;
+  }
+  .bar.intermediate::before{
+    width: calc(50% - 10px);
+    background-color: $redelijk;
+  }
+  .bar.normaal::before{
+    width: calc(65% - 10px);
+    background-color: $goed;
+  }
+  .bar.sass::before{
+    width: calc(70% - 10px);
+    background-color: $goed;
+  }
+  .bar.css::before{
+    width: calc(75% - 10px);
+    background-color: $goed;
+  }
+  .bar.advanced::before{
+    width: calc(85% - 10px);
+    background-color: $goed;
+  }
+  .bar.expert::before{
+    width: calc(90% - 10px);
+    background-color: $goed;
+  }
+  

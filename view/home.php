@@ -120,28 +120,34 @@
 
     <div class="block -color edge--top" style="margin-top: 15pc; display: flex;">
         <div class="col-12 col-xl-12">
-          <h3>tesssst</h3>
             <div class="col-12 col-xl-6 animation-element slide-left testimonial ">
-                <h1>My Skills</h1>
-
-                  <p>HTML</p>
-                  <div class="container">
-                    <div class="skills html">90%</div>
+              <!-- Slider 1 -->
+                  <div class="mySlides container">
+                    <h1>Mijn Vaardigheden</h1>
+                    <div class="bar advanced" data-skill="HTML5"></div>
+                    <div class="bar css" data-skill="CSS3"></div>
+                    <div class="bar sass" data-skill="Sass"></div>
+                    <div class="bar normaal" data-skill="PHP"></div>
+                    <div class="bar intermediate" data-skill="Git"></div>
+                    <div class="bar basic" data-skill="Javascript"></div>
                   </div>
 
-                  <p>CSS</p>
-                  <div class="container">
-                    <div class="skills css">80%</div>
+                  <!--Slider 2 -->
+                  <div class="mySlides container">
+                    <h1>Mijn Vaardigheden2</h1>
+                    <div class="bar advanced" data-skill="SQL"></div>
+                    <div class="bar css" data-skill="Java"></div>
+                    <div class="bar sass" data-skill="C#"></div>
+                    <div class="bar normaal" data-skill="Jquery"></div>
+                    <div class="bar intermediate" data-skill="Scrum agile"></div>
+                    
                   </div>
 
-                  <p>JavaScript</p>
-                  <div class="container">
-                    <div class="skills js">65%</div>
-                  </div>
-
-                  <p>PHP</p>
-                  <div class="container">
-                    <div class="skills php">60%</div>
+                  <!-- The dots/circles -->
+                  <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
                   </div>
             </div>
             <div class="col-12 col-xl-6 animation-element slide-left testimonial ">
@@ -152,6 +158,30 @@
 
 <?php include 'footer.php'; ?>
 <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+
 /*Interactivity to determine when an animated element in in view. In view elements trigger our animation*/
 $(document).ready(function() {
 

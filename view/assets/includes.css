@@ -1,0 +1,15 @@
+/* Import css styles */
+
+/* common styles */
+@import "common/main.css";
+
+/** Componenten */
+@import "components/icons.css";
+@import "components/model.css";
+@import "components/skills.css";
+@import "components/slider.css";
+
+/*** Layouts*/
+@import "layouts/header.css";
+@import "layouts/home.css";
+@import "layouts/footer.css";
