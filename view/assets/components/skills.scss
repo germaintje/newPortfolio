@@ -29,7 +29,7 @@ $onervaren : #b1b1b1;
   }  
   
   .bar.learning::before{
-    width: calc(20% - 10px);
+    width: calc(10% - 10px);
     background-color: $onervaren;
   }
   .bar.basic::before{
@@ -61,3 +61,6 @@ $onervaren : #b1b1b1;
     background-color: $goed;
   }
   
+  .skills {
+    margin-top: 3pc;
+  }

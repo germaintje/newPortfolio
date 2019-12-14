@@ -32,7 +32,7 @@
 }
 
 .bar.learning::before {
-  width: calc(20% - 10px);
+  width: calc(10% - 10px);
   background-color: #b1b1b1;
 }
 
@@ -69,5 +69,9 @@
 .bar.expert::before {
   width: calc(90% - 10px);
   background-color: #2ECC71;
+}
+
+.skills {
+  margin-top: 3pc;
 }
 /*# sourceMappingURL=skills.css.map */

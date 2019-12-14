@@ -109,7 +109,7 @@
 
           </span>
 
-            <div class="col-12 col-xl-12">
+            <div class="col-12 col-xl-12 button">
                 <button onclick="myFunction()" id="myMore" class="btn btn-primary">Bekijk meer</button>
             </div>
 
@@ -124,120 +124,80 @@
               <!-- Slider 1 -->
                   <div class="mySlides container">
                     <h1>Mijn Vaardigheden</h1>
-                    <div class="bar advanced" data-skill="HTML5"></div>
-                    <div class="bar css" data-skill="CSS3"></div>
-                    <div class="bar sass" data-skill="Sass"></div>
-                    <div class="bar normaal" data-skill="PHP"></div>
-                    <div class="bar intermediate" data-skill="Git"></div>
-                    <div class="bar basic" data-skill="Javascript"></div>
+                    <div class="skills">
+                      <div class="bar advanced" data-skill="HTML5"></div>
+                      <div class="bar css" data-skill="CSS3"></div>
+                      <div class="bar sass" data-skill="Sass"></div>
+                      <div class="bar normaal" data-skill="PHP"></div>
+                      <div class="bar intermediate" data-skill="Git"></div>
+                      <div class="bar basic" data-skill="Javascript"></div>
+                    </div>
                   </div>
 
                   <!--Slider 2 -->
                   <div class="mySlides container">
-                    <h1>Mijn Vaardigheden2</h1>
-                    <div class="bar advanced" data-skill="SQL"></div>
-                    <div class="bar css" data-skill="Java"></div>
-                    <div class="bar sass" data-skill="C#"></div>
-                    <div class="bar normaal" data-skill="Jquery"></div>
-                    <div class="bar intermediate" data-skill="Scrum agile"></div>
-                    
+                    <h1>Mijn Vaardigheden</h1>
+                    <div class="skills">
+                      <div class="bar normaal" data-skill="SQL"></div>
+                      <div class="bar normaal" data-skill="Scrum agile"></div>
+                      <div class="bar learning" data-skill="Java"></div>
+                      <div class="bar learning" data-skill="C#"></div>
+                      <div class="bar learning" data-skill="Jquery"></div>  
+                    </div>                  
                   </div>
 
                   <!-- The dots/circles -->
                   <div style="text-align:center">
                     <span class="dot" onclick="currentSlide(1)"></span>
                     <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
                   </div>
             </div>
             <div class="col-12 col-xl-6 animation-element slide-left testimonial ">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil recusandae dolore a est consectetur, aspernatur sunt tenetur, placeat dignissimos adipisci ducimus voluptates delectus, illo numquam tempora ex fuga repellendus voluptas!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet odit in natus? Aperiam excepturi vero eos similique. Ad in laborum, suscipit eveniet dolorem vel, debitis reiciendis, ipsam harum rerum fugiat.</p>
+              <h1>Contact openemen met mij</h1>
+              <h3>Ik ben bereikbaar via de volgende manieren</h3>
+              <div class="col-12 col-xl-5">
+                <div class="socials">
+                  <a href="#" class="socials far fa-envelope"><span> Menus2011@hotmail.com</span></a>
+                </div>
+                <div class="socials">
+                  <a href="#" class="socials fas fa-mobile-alt"><span> 06-37284354</span></a>
+                </div>
+                <div class="socials">  
+                    <a target="_blank" href="https://www.linkedin.com/in/germain-de-jong-applicatie/" class="socials fab fa-linkedin-in"><span> Germain de Jong</span></a>
+                </div>
+              </div>
+
+              <div class="col-12 col-xl-7">
+                  <form action="view/mail.php" method="post">
+                    <h5>Contactformulier</h5>
+                    <div class="form-group">
+                      <label for="">Naam</label>
+                      <input type="text" name="naam" class="form-control" placeholder="Germain de Jong">
+                    </div>
+
+                    <div class="form-group">
+                      <label for="">Email</label>
+                      <input type="text" name="email" class="form-control" placeholder="voorbeeld@gmail.com">
+                    </div>
+
+                    <div class="form-group">
+                      <label for="">Onderwerp</label>
+                      <input type="text" name="onderwerp" class="form-control" placeholder="Waar gaat het over">
+                    </div>
+
+                    <div class="form-group">
+                      <label for="">Bericht</label>
+                      <textarea name="bericht" class="form-control" style="height:150px" placeholder="Schrijf iets..."></textarea>
+                    </div>
+                    <div class="button">
+                      <button name="submit" type="submit" class="btn btn-primary"><span>Verstuur</span>
+                    </div>
+                  </form>
+              </div>
             </div>
         </div>
     </div>
 
 <?php include 'footer.php'; ?>
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-
-
-/*Interactivity to determine when an animated element in in view. In view elements trigger our animation*/
-$(document).ready(function() {
-
-//window and animation items
-var animation_elements = $.find('.animation-element');
-var web_window = $(window);
-
-//check to see if any animation containers are currently in view
-function check_if_in_view() {
-  //get current window information
-  var window_height = web_window.height();
-  var window_top_position = web_window.scrollTop();
-  var window_bottom_position = (window_top_position + window_height);
-
-  //iterate through elements to see if its in view
-  $.each(animation_elements, function() {
-
-    //get the element sinformation
-    var element = $(this);
-    var element_height = $(element).outerHeight();
-    var element_top_position = $(element).offset().top;
-    var element_bottom_position = (element_top_position + element_height);
-
-    //check to see if this current container is visible (its viewable if it exists between the viewable space of the viewport)
-    if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
-      element.addClass('in-view');
-    } else {
-      element.removeClass('in-view');
-    }
-  });
-
-}
-
-//on or scroll, detect elements in view
-$(window).on('scroll resize', function() {
-    check_if_in_view()
-  })
-  //trigger our scroll event on initial load
-$(window).trigger('scroll');
-
-});
-
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myMore");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Bekijk meer";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Bekijk minder";
-    moreText.style.display = "inline";
-  }
-}
-
-    </script>
+<script src="view/assets/scripts/skillslider.js"></script>
+<script src="view/assets/scripts/js.js"></script>

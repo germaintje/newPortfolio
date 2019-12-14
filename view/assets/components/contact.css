@@ -1,0 +1,36 @@
+form .button {
+  text-align: center;
+}
+
+form .button button {
+  background: #ba382f;
+  border: none;
+}
+
+form .button {
+  text-align: center;
+}
+
+form .button button:hover {
+  background: #a73a32;
+  border: none;
+}
+
+.button {
+  text-align: center;
+}
+
+.button button {
+  background: #8942A8;
+  border: none;
+}
+
+.button {
+  text-align: center;
+}
+
+.button button:hover {
+  background: #72338e;
+  border: none;
+}
+/*# sourceMappingURL=contact.css.map */

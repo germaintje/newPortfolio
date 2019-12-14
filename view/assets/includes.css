@@ -8,6 +8,7 @@
 @import "components/model.css";
 @import "components/skills.css";
 @import "components/slider.css";
+@import "components/contact.css";
 
 /*** Layouts*/
 @import "layouts/header.css";
