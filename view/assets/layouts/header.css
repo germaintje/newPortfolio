@@ -29,14 +29,11 @@ body {
 }
 
 .banner-text h2 {
-  text-align: center;
   color: #fff;
   font-size: 50px;
-  margin-top: 20%;
 }
 
 .banner-text h4 {
-  text-align: center;
   color: #fff;
   font-size: 25px;
 }
@@ -280,5 +277,12 @@ body {
 
 .wave3 {
   background-size: 45% 45px;
+}
+
+.homenaam {
+  text-align: center;
+  display: inline-table;
+  margin-top: 15%;
+  width: 100%;
 }
 /*# sourceMappingURL=header.css.map */

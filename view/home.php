@@ -22,7 +22,7 @@
 
     <div class="block -colorreverse edge--both--reverse" style="margin-top: 15pc; display: flex;">
         <div class="col-12 col-xl-10 animation-element slide-left testimonial" style="text-align: center; margin: 0 auto;">
-          <h3>Mijn werk</h3>
+          <h1>Mijn werk</h1>
             <div class="col-12 col-xl-4">
               <div class="werk">
                 <div class="foto">
@@ -63,7 +63,7 @@
                       <a class="" href="#openModal2"><i class="informatie fas fa-info-circle"></i></a>
                     </div>
                 </div>
-                <a class="hlink" href="openModal2"><h3 class="alt">Project exam</h3></a>
+                <a class="hlink" href="#openModal2"><h3 class="alt">Project exam</h3></a>
               </div> 
               <div id="openModal2" class="modalDialog">
                 <div>
@@ -94,7 +94,7 @@
                       <a class="" href="#openModal3"><i class="informatie fas fa-info-circle"></i></a>
                     </div>
                 </div>
-                <a class="hlink" href="openModal3"><h3 class="alt">SpotifySass</h3></a>
+                <a class="hlink" href="#openModal3"><h3 class="alt">SpotifySass</h3></a>
               </div> 
               <div id="openModal3" class="modalDialog">
                 <div>
@@ -123,19 +123,31 @@
           <div class="col-12 col-xl-4">
               <div class="werk">
               <div class="foto">
-                  <img class="image werkimg" src="view/assets/images/exam.png" alt="Project Exam"> 
+                  <img class="image werkimg" src="view/assets/images/oude-portfolio.png" alt="Oude portfolio"> 
                     <div class="middle">
                       <a class="" href="#openModal4"><i class="informatie fas fa-info-circle"></i></a>
                     </div>
                 </div>
-                <a class="hlink" href="openModal4"><h3 class="alt">Project exam</h3></a>
+                <a class="hlink" href="#openModal4"><h3 class="alt">Oude Portfolio</h3></a>
               </div> 
               <div id="openModal4" class="modalDialog">
                 <div>
+                    
                     <a href="#close" title="Close" class="close">X</a>
-                    <h2>Modal Box 4</h2>
-                    <p>This is a sample modal box that can be created using the powers of CSS3.    </p>
-                    <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+                    <h2>Oude Portfolio</h2>
+
+                    <div class="col-12 col-xl-6">
+                      <img class="image werkimg" src="view/assets/images/oude-portfolio.png" alt="oude-portfolio.germaindejong.nl" style="width: 80%"> 
+                    </div>
+                    
+                    <div class="col-12 col-xl-6 links">
+                    <p><b>Leerjaar:</b> 1 en 2</p>
+                    <p><b>Website: </b><a href="https://oude-portfolio.germaindejong.nl/" target="_blank">oude-portfolio.germaindejong.nl</a></p>
+                    <p><b>Github: </b><a href="https://github.com/germaintje/oudeportfolio" target="_blank">github.com/germaintje/oude-portfolio</a></p>
+                    <p><b>Programmeertalen: </b>HTML, CSS, PHP, JavaScript</p>
+                    <p><b>Teamverband: </b>Nee</p>
+                    </div>
+
                 </div>
                 </div>
           </div>

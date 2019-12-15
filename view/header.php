@@ -20,9 +20,10 @@
         <a href="#">Home</a>
         <a href="#">About</a>
     </ul>
-
-    <h2>Germain de Jong</h2>
-    <h4>Full stack developer</h4>
+    <div class="homenaam">
+        <h2>Germain de Jong</h2>
+        <h4>Full stack developer</h4>
+    </div>
    <!-- <div class="icoon">
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-linkedin"></a>
