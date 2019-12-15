@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAA;EACF,UAAU,EAAE,IAAI;CACnB;;AAED,AAAA,MAAM,AAAA,MAAM,CAAC;EACT,eAAe,EAAE,IAAI;CACxB",
+    "sources": [
+        "werk.scss"
+    ],
+    "names": [],
+    "file": "werk.css"
+}

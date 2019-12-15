@@ -26,20 +26,30 @@
             <div class="col-12 col-xl-4">
               <div class="werk">
                 <div class="foto">
-                  <img class="image werkimg" src="view/assets/images/exam.png" alt="Project Exam"> 
+                  <img class="image werkimg" src="view/assets/images/gameplaypartyM.png" alt="gameplayparty.ga"> 
                     <div class="middle">
                       <a class="" href="#openModal1"><i class="informatie fas fa-info-circle"></i></a>
                     </div>
                 </div>
-                <a class="hlink" href="#openModal1"><h4 class="alt">Project exam</h4></a>
+                <a class="hlink" href="#openModal1"><h3 class="alt">Gameplayparty</h3></a>
               </div> 
 
                 <div id="openModal1" class="modalDialog">
                 <div>
                     <a href="#close" title="Close" class="close">X</a>
-                    <h2>Modal Box 1</h2>
-                    <p>This is a sample modal box that can be created using the powers of CSS3.    </p>
-                    <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+                    <h2>Gameplayparty</h2>
+                    <div class="col-12 col-xl-6">
+                      <img class="image werkimg" src="view/assets/images/gameplaypartyM.png" alt="gameplayparty.ga" style="width: 80%"> 
+                    </div>
+                    
+                    <div class="col-12 col-xl-6 links">
+                    <p><b>Leerjaar:</b> 3</p>
+                    <p><b>Website: </b><a href="https://www.gameplayparty.ga" target="_blank">Gameplayparty.ga</a></p>
+                    <p><b>Github: </b><a href="https://github.com/germaintje/gameplayparty" target="_blank">github.com/germaintje/gameplayparty</a></p>
+                    <p><b>Programmeertalen: </b>HTML, CSS, PHP</p>
+                    <p><b>Teamverband: </b>Ja</p>
+                    <p><b>Team: </b>Anass Kadouri, Bob Lubbers</p>
+                    </div>
                 </div>
                 </div>
 
@@ -105,7 +115,7 @@
                     <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
                 </div>
                 </div>
-            </div>
+          </div>
 
           </span>
 

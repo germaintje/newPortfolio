@@ -152,6 +152,10 @@
   color: white;
 }
 
+.alt:hover {
+  color: grey;
+}
+
 .informatie {
   font-size: 4pc !important;
   color: #ba382f !important;
@@ -166,7 +170,7 @@
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 50%;
+  top: 44%;
   left: 50%;
   -webkit-transform: translate(-50%, -95%);
           transform: translate(-50%, -95%);

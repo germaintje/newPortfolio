@@ -9,6 +9,7 @@
     opacity: 0;
     transition: opacity 400ms ease-in;
     pointer-events: none;
+    display: inline-block;
 }
 
 .modalDialog:target {
@@ -17,9 +18,6 @@
 }
 
 .modalDialog > div {
-    position: relative;
-    display: flex;
-    flex-direction: column;
     border-radius: .3rem;
     min-height: 30pc;
     background-color: #fefefe;

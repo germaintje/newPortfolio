@@ -9,6 +9,7 @@
 @import "components/skills.css";
 @import "components/slider.css";
 @import "components/contact.css";
+@import "components/werk.css";
 
 /*** Layouts*/
 @import "layouts/header.css";
