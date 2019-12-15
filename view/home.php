@@ -58,7 +58,7 @@
             <div class="col-12 col-xl-4">
               <div class="werk">
               <div class="foto">
-                  <img class="image werkimg" src="view/assets/images/exam.png" alt="Project Exam"> 
+                  <img class="image werkimg" src="view/assets/images/projectexamM.png" alt="Project Exam"> 
                     <div class="middle">
                       <a class="" href="#openModal2"><i class="informatie fas fa-info-circle"></i></a>
                     </div>
@@ -68,9 +68,20 @@
               <div id="openModal2" class="modalDialog">
                 <div>
                     <a href="#close" title="Close" class="close">X</a>
-                    <h2>Modal Box 2</h2>
-                    <p>This is a sample modal box that can be created using the powers of CSS3.    </p>
-                    <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+                    <h2>Project Exam</h2>
+
+                    <div class="col-12 col-xl-6">
+                      <img class="image werkimg" src="view/assets/images/projectexamM.png" alt="gameplayparty.ga" style="width: 80%"> 
+                    </div>
+                    
+                    <div class="col-12 col-xl-6 links">
+                    <p><b>Leerjaar:</b> 1</p>
+                    <p><b>Website: </b><a href="https://www.projectexam.germaindejong.nl/opdrachtexamGermaindeJong.html" target="_blank">projectexam.germaindejong.nl</a></p>
+                    <p><b>Github: </b><a href="https://github.com/germaintje/Project-Exam" target="_blank">github.com/germaintje/project-exam</a></p>
+                    <p><b>Programmeertalen: </b>HTML, CSS</p>
+                    <p><b>Teamverband: </b>Nee</p>
+                    </div>
+
                 </div>
                 </div>
             </div>
@@ -78,19 +89,31 @@
             <div class="col-12 col-xl-4">
               <div class="werk">
               <div class="foto">
-                  <img class="image werkimg" src="view/assets/images/exam.png" alt="Project Exam"> 
+                  <img class="image werkimg" src="view/assets/images/spotifyM.png" alt="Project Spotify"> 
                     <div class="middle">
                       <a class="" href="#openModal3"><i class="informatie fas fa-info-circle"></i></a>
                     </div>
                 </div>
-                <a class="hlink" href="openModal3"><h3 class="alt">Project exam</h3></a>
+                <a class="hlink" href="openModal3"><h3 class="alt">SpotifySass</h3></a>
               </div> 
               <div id="openModal3" class="modalDialog">
                 <div>
-                    <a href="#close" title="Close" class="close">X</a>
-                    <h2>Modal Box 3</h2>
-                    <p>This is a sample modal box that can be created using the powers of CSS3.    </p>
-                    <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+
+                <a href="#close" title="Close" class="close">X</a>
+                    <h2>SpotifySass</h2>
+
+                    <div class="col-12 col-xl-6">
+                      <img class="image werkimg" src="view/assets/images/spotifyM.png" alt="Spotify.germaindejong.nl" style="width: 80%"> 
+                    </div>
+                    
+                    <div class="col-12 col-xl-6 links">
+                    <p><b>Leerjaar:</b> 3</p>
+                    <p><b>Website: </b><a href="https://spotify.germaindejong.nl" target="_blank">spotify.germaindejong.nl</a></p>
+                    <p><b>Github: </b><a href="https://github.com/germaintje/spotifySass" target="_blank">github.com/germaintje/spotifySass</a></p>
+                    <p><b>Programmeertalen: </b>HTML, CSS, SCSS/SASS, PHP</p>
+                    <p><b>Teamverband: </b>Nee</p>
+                    </div>
+
                 </div>
                 </div>
             </div>
@@ -128,7 +151,7 @@
 
     
 
-    <div class="block -color edge--top" style="margin-top: 15pc; display: flex;">
+    <div class="block -color edge--top" style="margin-bottom: 0pc; display: flex;">
         <div class="col-12 col-xl-12">
             <div class="col-12 col-xl-6 animation-element slide-left testimonial ">
               <!-- Slider 1 -->
@@ -206,7 +229,12 @@
               </div>
             </div>
         </div>
-    </div>
+        </div>
+        <div class="col-12">
+          <p style="text-align: center;">© Copyright Germain de Jong</p>
+        </div>
+
+  
 
 <?php include 'footer.php'; ?>
 <script src="view/assets/scripts/skillslider.js"></script>
