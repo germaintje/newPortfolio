@@ -4,7 +4,7 @@
     <div class="blockovermij -color edge--both" style="margin-top: 15pc; display: flex;">
         <div class="col-12 col-xl-9 mar">
             <div class="col-12 col-xl-8 animation-element slide-left testimonial ">
-                <h3>Mijn naam is Germain de Jong</h3>
+                <h3>Mijn naam is Germain de Jonggg</h3>
                   <p>
                   Welkom op mijn portfolio website. Jullie zijn hier vast met een reden, meer over mij te weten komen. Als ik een website bouw probeer ik zo dicht mogelijk bij het idee te blijven en geen onnodige dingen toe te voegen. De vormgeving strakhouden en de structuur overzichtelijk.
 
