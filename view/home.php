@@ -157,12 +157,12 @@
               <div class="foto">
                   <img class="image werkimg" src="view/assets/images/umcM.png" alt="Oude portfolio"> 
                     <div class="middle">
-                      <a class="" href="#openModal4"><i class="informatie fas fa-info-circle"></i></a>
+                      <a class="" href="#openModal5"><i class="informatie fas fa-info-circle"></i></a>
                     </div>
                 </div>
-                <a class="hlink" href="#openModal4"><h3 class="alt">Oude Portfolio</h3></a>
+                <a class="hlink" href="#openModal5"><h3 class="alt">Oude Portfolio</h3></a>
               </div> 
-              <div id="openModal4" class="modalDialog">
+              <div id="openModal5" class="modalDialog">
                 <div>
                     
                     <a href="#close" title="Close" class="close">X</a>
@@ -173,11 +173,12 @@
                     </div>
                     
                     <div class="col-12 col-xl-6 links">
-                    <p><b>Leerjaar:</b> 1 en 2</p>
+                    <p><b>Leerjaar:</b> 2</p>
                     <p><b>Website: </b><a href="https://umc.germaindejong.nl/" target="_blank">umc.germaindejong.nl</a></p>
                     <p><b>Github: </b><a href="https://github.com/germaintje/umc" target="_blank">github.com/germaintje/umc</a></p>
-                    <p><b>Programmeertalen: </b>HTML, CSS, PHP, JavaScript</p>
-                    <p><b>Teamverband: </b>Nee</p>
+                    <p><b>Programmeertalen: </b>HTML, CSS, PHP, mySQL</p>
+                    <p><b>Teamverband: </b>Ja</p>
+                    <p><b>Team: </b>Chen pei, Romy, Jurre</p>
                     </div>
 
                 </div>
