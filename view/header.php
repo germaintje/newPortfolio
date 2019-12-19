@@ -6,17 +6,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="view/assets/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="view/assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="view/assets/images/favicon-16x16.png">
-    <link rel="manifest" href="view/assets/images/site.webmanifest">
-
     <link rel="stylesheet" href="view/assets/includes.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
     <script src="https://kit.fontawesome.com/662656f14c.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <title>Germain de Jong | Full...</title>
+    <title>Document</title>
 </head>
 <body>
 <div class="banner-text">

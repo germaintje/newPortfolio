@@ -4,7 +4,7 @@
     <div class="blockovermij -color edge--both" style="margin-top: 15pc; display: flex;">
         <div class="col-12 col-xl-9 mar">
             <div class="col-12 col-xl-8 animation-element slide-left testimonial ">
-                <h3>Mijn naam is Germain de Jonggg</h3>
+                <h3>Mijn naam is Germain de Jong</h3>
                   <p>
                   Welkom op mijn portfolio website. Jullie zijn hier vast met een reden, meer over mij te weten komen. Als ik een website bouw probeer ik zo dicht mogelijk bij het idee te blijven en geen onnodige dingen toe te voegen. De vormgeving strakhouden en de structuur overzichtelijk.
 
@@ -144,6 +144,38 @@
                     <p><b>Leerjaar:</b> 1 en 2</p>
                     <p><b>Website: </b><a href="https://oude-portfolio.germaindejong.nl/" target="_blank">oude-portfolio.germaindejong.nl</a></p>
                     <p><b>Github: </b><a href="https://github.com/germaintje/oudeportfolio" target="_blank">github.com/germaintje/oude-portfolio</a></p>
+                    <p><b>Programmeertalen: </b>HTML, CSS, PHP, JavaScript</p>
+                    <p><b>Teamverband: </b>Nee</p>
+                    </div>
+
+                </div>
+                </div>
+          </div>
+
+          <div class="col-12 col-xl-4">
+              <div class="werk">
+              <div class="foto">
+                  <img class="image werkimg" src="view/assets/images/umcM.png" alt="Oude portfolio"> 
+                    <div class="middle">
+                      <a class="" href="#openModal4"><i class="informatie fas fa-info-circle"></i></a>
+                    </div>
+                </div>
+                <a class="hlink" href="#openModal4"><h3 class="alt">Oude Portfolio</h3></a>
+              </div> 
+              <div id="openModal4" class="modalDialog">
+                <div>
+                    
+                    <a href="#close" title="Close" class="close">X</a>
+                    <h2>Oude Portfolio</h2>
+
+                    <div class="col-12 col-xl-6">
+                      <img class="image werkimg" src="view/assets/images/umcM.png" alt="umc.germaindejong.nl" style="width: 80%"> 
+                    </div>
+                    
+                    <div class="col-12 col-xl-6 links">
+                    <p><b>Leerjaar:</b> 1 en 2</p>
+                    <p><b>Website: </b><a href="https://umc.germaindejong.nl/" target="_blank">umc.germaindejong.nl</a></p>
+                    <p><b>Github: </b><a href="https://github.com/germaintje/umc" target="_blank">github.com/germaintje/umc</a></p>
                     <p><b>Programmeertalen: </b>HTML, CSS, PHP, JavaScript</p>
                     <p><b>Teamverband: </b>Nee</p>
                     </div>
